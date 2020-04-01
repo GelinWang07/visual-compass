@@ -1,0 +1,6 @@
+A visual compass realization based on PCL, OpenCV and Eigen. This modified approach is presented to estimate the three Degree-of-Freedom (DoF) orientation of RGB-D camera in indoor environments. Here are some functions presented including: 
+1. generate 3d organized point cloud
+2. fiter of statistical outlier removal
+3. write the cloud normals
+4. get cloud normals by integral image
+5. segment planes by RANSAC
